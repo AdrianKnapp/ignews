@@ -24,6 +24,7 @@
     "stripe": "^8.178.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.11.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@types/next-auth": "^3.15.0",
