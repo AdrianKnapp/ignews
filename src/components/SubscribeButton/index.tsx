@@ -3,11 +3,8 @@ import { useSession, signIn } from 'next-auth/client';
 import { api } from '../../services/api';
 import { getStripeJs } from '../../services/stripe-js';
 import { useRouter } from 'next/router';
-interface SubscribeButtonProps {
-  priceId: string;
-}
 
-export function SubscribeButton({ priceId }: SubscribeButtonProps) {
+export function SubscribeButton() {
   const [session] = useSession();
   const router = useRouter();
 

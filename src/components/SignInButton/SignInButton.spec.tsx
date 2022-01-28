@@ -29,8 +29,9 @@ describe('SignInButton component', () => {
           email: 'john.doe@example.com'
         },
         expires: 'fake-expires'
-      }
-      , false]);
+      }, 
+      false
+    ]);
 
     const { debug } = render(
       <SignInButton />
