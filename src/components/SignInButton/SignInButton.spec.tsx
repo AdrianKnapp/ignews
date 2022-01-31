@@ -15,7 +15,6 @@ describe('SignInButton component', () => {
       <SignInButton />
     )
 
-    debug();
     expect(screen.getByText('Sign In with GitHub')).toBeInTheDocument();
   })
 
@@ -37,7 +36,6 @@ describe('SignInButton component', () => {
       <SignInButton />
     )
 
-    debug();
     expect(screen.getByText('John Doe')).toBeInTheDocument();
   })
 });
