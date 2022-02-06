@@ -34,7 +34,7 @@ describe('Home page', () => {
         props: {
           product: {
             priceId: 'fake-price-id',
-            amount: 'R$10,00'
+            amount: '$10.00'
           }
         }
       })
